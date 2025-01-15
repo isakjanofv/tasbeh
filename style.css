@@ -5,9 +5,10 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+
   }
   
-  .tasbeh {
+  .tasbeh-container {
     margin: 50px auto;
     max-width: 400px;
     padding: 20px;
