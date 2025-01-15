@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tasbeh {
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .counter-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background: #e6f0ff;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #increment-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #reset-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 480px) {
+    .tasbeh-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    .counter-display {
+      font-size: 28px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 6px 10px;
+    }
+  }
